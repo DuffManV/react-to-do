@@ -5,7 +5,7 @@ import App from './App';
 describe('ToDo', () => {
   it('renders without crashing', () => {
     render(<App />);
-    expect(screen.getByText('Список дел')).toBeInTheDocument();
+    expect(screen.getByText('Список задач')).toBeInTheDocument();
   });
 
   it('adds new task', () => {
