@@ -63,7 +63,7 @@ const App: React.FC = () => {
       <Container maxWidth="sm" className="app-container">
         <Paper elevation={3} className="app-paper">
           <Typography variant="h4" align="center" gutterBottom>
-            Список дел
+            Список задач
           </Typography>
 
           <TaskInput onAddTask={addTask} />
