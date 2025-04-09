@@ -1,0 +1,27 @@
+.app-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.app-paper {
+    padding: 2rem;
+}
+
+.tabs {
+    margin: 2rem 0;
+}
+
+.tab {
+    margin: 0 1rem;
+}
+
+.no-tasks {
+    text-align: center;
+    padding: 16px;
+}
+
+@media (max-width: 600px) {
+    .app-paper {
+        padding: 1rem;
+    }
+}
